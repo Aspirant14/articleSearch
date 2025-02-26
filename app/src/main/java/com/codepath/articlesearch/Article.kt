@@ -38,7 +38,7 @@ data class Headline(
 @Serializable
 data class Byline(
     @SerialName("original")
-    val byline: String?
+    val original: String?
 ) : java.io.Serializable
 @Keep
 @Serializable
